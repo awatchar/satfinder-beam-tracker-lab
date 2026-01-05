@@ -7,6 +7,11 @@ This repository is designed for classroom/STEM delivery: predictable startup beh
 
 ---
 
+## Screenshot
+![Screenshot](/docs/images/Screenshot.png)
+
+---
+
 ## Table of Contents
 
 - [What this project does](#what-this-project-does)
@@ -17,7 +22,6 @@ This repository is designed for classroom/STEM delivery: predictable startup beh
 - [Quick start (classroom flow)](#quick-start-classroom-flow)
 - [Calibration Lab (Pan 90/180/270/360) + auto model](#calibration-lab-pan-90180270360--auto-model)
 - [Run from source (developer mode)](#run-from-source-developer-mode)
-- [Recommended folder layout](#recommended-folder-layout)
 - [Troubleshooting](#troubleshooting)
 - [Safety notes for classroom demonstrations](#safety-notes-for-classroom-demonstrations)
 ---
@@ -55,6 +59,7 @@ This repository is designed for classroom/STEM delivery: predictable startup beh
 - Windows 10 (usually works)
 
 ### Hardware (optional but recommended for full demo)
+![Hardware](/docs/images/Hardware.png)
 - DMX512 moving-head light fixture
 - USB-DMX interface (commonly uDMX/LIXADA-compatible)
 - DMX cable(s)
@@ -62,7 +67,7 @@ This repository is designed for classroom/STEM delivery: predictable startup beh
 
 ### Network / APIs
 - Internet connectivity recommended for satellite metadata / TLE retrieval workflows
-- If using N2YO, an API key is required. N2YO provides a REST API with per-endpoint transaction limits (e.g., `tle`, `positions`, etc.). See official documentation. (Reference: N2YO API) :contentReference[oaicite:0]{index=0}
+- If using N2YO, an API key is required. N2YO provides a REST API with per-endpoint transaction limits (e.g., `tle`, `positions`, etc.). See official documentation. (Reference: N2YO API) 
 
 ---
 
@@ -137,26 +142,26 @@ A practical example from the community explicitly describes using Zadig to repla
 ## Quick start (classroom flow)
 
 ### Step 1: Location
-
+![Step1](/docs/images/Step1.png)
 * Choose either:
 
   * Browser geolocation (if allowed), or
   * manual latitude/longitude input
 
 ### Step 2: Satellite selection
-
+![Step2](/docs/images/Step2.png)
 * Search by:
 
   * NORAD ID (e.g., `25544`), or
   * approximate name (case-insensitive partial matches)
 
 ### Step 3: View TLE + path
-
+![Step3](/docs/images/Step3.png)
 * Confirm the displayed TLE.
 * The Sky Dome path shows the satellite track from AOS to LOS.
 
 ### Step 4: Tracking (beam pointing)
-
+![Step4](/docs/images/Step4.png)
 * Start tracking.
 * Confirm the fixture’s “North reference” orientation if prompted (classroom alignment step).
 * During tracking:
@@ -181,7 +186,7 @@ For teaching:
 ---
 
 ## Calibration Lab (Pan 90/180/270/360) + auto model
-
+![Calibration](/docs/images/Calibration.png)
 ### Why calibration is necessary
 
 Moving-head pan position is rarely perfectly linear with DMX values across the full range, and some fixtures reverse direction (e.g., DMX increases → CCW). A calibration workflow improves pointing realism and makes the “engineering measurement” component explicit for students.

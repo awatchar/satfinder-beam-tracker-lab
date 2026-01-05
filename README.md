@@ -1,4 +1,5 @@
 # SatFinder: Satellite Beam Tracker Lab
+![SatBeamTrack Logo](/docs/images/SatBeamTrack.png)
 
 An educational, web-based laboratory for demonstrating satellite motion in the sky. The system visualizes a satellite pass (Sky Dome) and optionally drives a **DMX512 moving-head light** to “point a beam” along the satellite’s real-time **Azimuth/Elevation** track (Az/El → Pan/Tilt), using **TLE/NORAD**-based propagation.
 
@@ -19,9 +20,6 @@ This repository is designed for classroom/STEM delivery: predictable startup beh
 - [Recommended folder layout](#recommended-folder-layout)
 - [Troubleshooting](#troubleshooting)
 - [Safety notes for classroom demonstrations](#safety-notes-for-classroom-demonstrations)
-- [Credits and references](#credits-and-references)
-- [Project footer (for reuse in materials)](#project-footer-for-reuse-in-materials)
-
 ---
 
 ## What this project does
@@ -242,25 +240,6 @@ Open:
 ```text
 http://127.0.0.1:5000
 ```
-
----
-
-## Recommended folder layout
-
-```text
-.
-├─ sat_mh_web.py
-├─ requirements.txt
-├─ ding.mp3
-├─ satcat.csv
-├─ docs/
-│  ├─ screenshots/
-│  ├─ calibration-guide.md
-│  └─ release-notes.md
-└─ build/
-   └─ (packaging scripts, e.g., PyInstaller spec)
-```
-
 ---
 
 ## Troubleshooting
@@ -306,15 +285,6 @@ http://127.0.0.1:5000
 
 ---
 
-## Project footer (for reuse in materials)
-
-SatFinder: Satellite Beam Tracker Lab
-Telecommunications Learning Promotion Project for Schools Nationwide
-Faculty of Engineering, Thammasat University, and Thammasat University Research and Consultancy Institute
-Supported by the Broadcasting and Telecommunications Research and Development Fund for the Public Interest
-
----
-
 ## Useful links (copy/paste)
 
 To comply with some environments that restrict clickable links in documents, here are references in plain text:
@@ -326,15 +296,10 @@ N2YO API:            https://www.n2yo.com/api/
 CelesTrak SATCAT:    https://celestrak.org/satcat/satcat-format.php
 ```
 
-```
+---
+## About This Project
 
-If you tell me the **exact Release asset name** you intend to publish (e.g., `SatFinderBeamTrackerLab-win11-x64.zip` vs `sat_mh_web.exe` only), I will tailor the “Install from Releases” section to match it precisely (including a 1-page QUICKSTART and a recommended ZIP layout for school deployments).
-::contentReference[oaicite:13]{index=13}
-```
-
-[1]: https://zadig.akeo.ie/?utm_source=chatgpt.com "Zadig - USB driver installation made easy"
-[2]: https://github.com/ha5dzs/udmx-matlab-commander?utm_source=chatgpt.com "ha5dzs/udmx-matlab-commander"
-[3]: https://github.com/pbatard/libwdi/wiki/Zadig?utm_source=chatgpt.com "Zadig · pbatard/libwdi Wiki"
-[4]: https://www.illutzmination.de/udmxdriver.1.html?L=1&utm_source=chatgpt.com "uDMX driver - ilLU[TZ]mination"
-[5]: https://celestrak.org/satcat/satcat-format.php?utm_source=chatgpt.com "https://celestrak.org/satcat/satcat-format.php"
-[6]: https://www.n2yo.com/api/?utm_source=chatgpt.com "N2YO.com API"
+SatFinder: Satellite Beam Tracker Lab
+Telecommunications Learning Promotion Project for Schools Nationwide
+Faculty of Engineering, Thammasat University, and Thammasat University Research and Consultancy Institute
+Supported by the Broadcasting and Telecommunications Research and Development Fund for the Public Interest

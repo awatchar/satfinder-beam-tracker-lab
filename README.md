@@ -1,3 +1,5 @@
+Language: English | [ไทย](./README.th.md)
+
 # SatFinder: Satellite Beam Tracker Lab
 ![SatBeamTrack Logo](/docs/images/SatBeamTrack.png)
 
